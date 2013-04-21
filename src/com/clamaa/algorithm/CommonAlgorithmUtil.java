@@ -1,4 +1,4 @@
-package com.clamaa.algorithm.common;
+package com.clamaa.algorithm;
 
 /**
  * Created with IntelliJ IDEA.

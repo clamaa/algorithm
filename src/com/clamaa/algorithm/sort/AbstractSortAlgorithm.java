@@ -6,9 +6,9 @@ package com.clamaa.algorithm.sort;
  */
 public abstract class AbstractSortAlgorithm<T> implements ISortAlgorithm<T> {
 
-    protected void swap(String[] array, int m, int n) {
-        String mString = array[m];
-        String nString = array[n];
+    protected void swap(T[] array, int m, int n) {
+        T mString = array[m];
+        T nString = array[n];
         array[m] = nString;
         array[n] = mString;
     }

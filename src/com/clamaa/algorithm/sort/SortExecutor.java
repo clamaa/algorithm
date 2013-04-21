@@ -1,6 +1,6 @@
 package com.clamaa.algorithm.sort;
 
-import com.clamaa.algorithm.common.CommonAlgorithmUtil;
+import com.clamaa.algorithm.CommonAlgorithmUtil;
 
 /**
  * User: clamaa

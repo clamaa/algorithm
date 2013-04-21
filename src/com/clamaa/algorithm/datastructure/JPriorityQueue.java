@@ -1,6 +1,7 @@
 package com.clamaa.algorithm.datastructure;
 
 /**
+ * Use array to implement priority queue.
  * User: clamaa
  * Date: 13-4-14
  */

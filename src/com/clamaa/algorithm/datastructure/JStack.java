@@ -6,14 +6,14 @@ import com.clamaa.algorithm.exception.ContainerIndexException;
  * User: clamaa
  * Date: 13-4-14
  */
-public class JStack {
+public class JStack<T> {
     private int stackSize;
-    private long[] stackArray;
+    private Object[] stackArray;
     private int top;
 
     public JStack(int size){
         this.stackSize = size;
-        this.stackArray = new long[this.stackSize];
+        this.stackArray = new Object[this.stackSize];
         this.top = -1;
     }
 
@@ -25,16 +25,17 @@ public class JStack {
         return this.top == stackSize - 1;
     }
 
-    public void push(long data) throws ContainerIndexException {
+    public void push(T data) throws ContainerIndexException {
         if(!isFull()){
             stackArray[++top] = data;
+            return;
         }
         throw new ContainerIndexException("The stack is full!");
     }
 
-    public long pop() throws ContainerIndexException {
+    public T pop() throws ContainerIndexException {
         if(!isEmpty()){
-            return stackArray[top--];
+            return (T)stackArray[top--];
         }
         throw new ContainerIndexException("The stack is empty!");
     }

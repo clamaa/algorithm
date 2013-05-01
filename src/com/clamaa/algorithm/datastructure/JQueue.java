@@ -6,23 +6,23 @@ import com.clamaa.algorithm.exception.ContainerIndexException;
  * User: clamaa
  * Date: 13-4-14
  */
-public class JQueue {
+public class JQueue<T> {
 
     private int maxSize;
-    private long[] queueArray;
+    private T[] queueArray;
     private int front;
     private int rear;
     private int nItems;
 
     public JQueue(int size){
         this.maxSize = size;
-        queueArray = new long[queueArray.length];
+        queueArray = (T[])new Object[queueArray.length];
         front = 0;
         rear = -1;
         nItems = 0;
     }
 
-    public void insert(long data) throws ContainerIndexException {
+    public void insert(T data) throws ContainerIndexException {
         if(isFull()){
             throw new ContainerIndexException("The queue is full!");
         }
@@ -33,11 +33,11 @@ public class JQueue {
         nItems++;
     }
 
-    public long remove() throws ContainerIndexException {
+    public T remove() throws ContainerIndexException {
         if(isEmpty()){
             throw new ContainerIndexException("The queue is empty!");
         }
-        long result = queueArray[front++];
+        T result = queueArray[front++];
         if(front == maxSize){
             front = 0;
         }

@@ -4,10 +4,10 @@ package com.clamaa.algorithm.sort;
  * User: clamaa
  * Date: 13-4-14
  */
-public class SelectSort extends AbstractSortAlgorithm<String> {
+public class SelectSort<T extends Comparable<T>> extends AbstractSortAlgorithm<T> {
 
     @Override
-    public void sort(String[] toSortArray) {
+    public void sort(T[] toSortArray) {
         int in, out;
         int sortArrayLength = toSortArray.length;
         for(out = sortArrayLength - 1; out > 1; out --){

@@ -1,16 +1,14 @@
 package com.clamaa.algorithm.sort;
 
 /**
- * Created with IntelliJ IDEA.
  * User: clamaa
  * Date: 13-4-14
  * Time: 下午4:35
- * To change this template use File | Settings | File Templates.
  */
-public class BubbleSort extends AbstractSortAlgorithm<String> {
+public class BubbleSort<T extends Comparable<T>> extends AbstractSortAlgorithm<T> {
 
     @Override
-    public void sort(String[] toSortArray) {
+    public void sort(T[] toSortArray) {
         int out, in;
         int elementsLength = toSortArray.length;
         for (out = elementsLength - 1; out > 1; out--) {

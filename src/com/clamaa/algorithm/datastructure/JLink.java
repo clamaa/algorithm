@@ -1,6 +1,7 @@
 package com.clamaa.algorithm.datastructure;
 
 /**
+ *
  * User: clamaa
  * Date: 13-4-15
  */

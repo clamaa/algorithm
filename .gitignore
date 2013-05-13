@@ -1,5 +1,16 @@
+<<<<<<< HEAD
 /out
 .class
 .jar
 workspace.xml
 *.iml
+=======
+*.class
+*.iml
+.idea/*
+
+# Package Files #
+*.jar
+*.war
+*.ear
+>>>>>>> origin/master

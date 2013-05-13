@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1eab6fda-a258-40a4-b335-40163bf3898d" name="Default" comment="Change sort method to generic type.&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/designpatterns.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/Node.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/NodeA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/NodeB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/ObjectStructure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/Visitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/VisitorA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/VisitorB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="1eab6fda-a258-40a4-b335-40163bf3898d" name="Default" comment="Add interpretor pattern.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/chainofresp/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/chainofresp/ConcreteHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/chainofresp/Handler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="algorithm.iws" />
@@ -34,21 +27,6 @@
     <groupTables value="false" />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/Client.java" line="15" class="com.clamaa.designpattern.visitor.Client" package="com.clamaa.designpattern.visitor">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -89,94 +67,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BubbleSort.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/sort/BubbleSort.java">
+      <file leaf-file-name="And.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/And.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="18" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+            <state line="41" column="16" selection-start="1028" selection-end="1086" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Visitor.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/Visitor.java">
+      <file leaf-file-name="Or.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Or.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="57" selection-start="275" selection-end="275" vertical-scroll-proportion="0.52307695">
+            <state line="41" column="36" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Node.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/Node.java">
+      <file leaf-file-name="Handler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/chainofresp/Handler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
+            <state line="12" column="35" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NodeA.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/NodeA.java">
+      <file leaf-file-name="ConcreteHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/chainofresp/ConcreteHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="28" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
+            <state line="15" column="0" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ObjectStructure.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/ObjectStructure.java">
+      <file leaf-file-name="Client.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/chainofresp/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="38" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="15" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="0.7846154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constant.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Constant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="39" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Not.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Not.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="46" selection-start="795" selection-end="795" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Variable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Variable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="34" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Client.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/Client.java">
+        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="29" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
+            <state line="23" column="81" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VisitorA.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/VisitorA.java">
+      <file leaf-file-name="Context.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Context.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VisitorB.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/VisitorB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="45" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NodeB.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/NodeB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ISortAlgorithm.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/sort/ISortAlgorithm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="31" selection-start="206" selection-end="220" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="22" column="35" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#219#238#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -204,22 +183,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/clamaa/algorithm/datastructure/JQueue.java" />
-        <option value="$PROJECT_DIR$/src/com/clamaa/algorithm/graph/Vertex.java" />
-        <option value="$PROJECT_DIR$/src/com/clamaa/algorithm/datastructure/JPriorityQueue.java" />
-        <option value="$PROJECT_DIR$/src/com/clamaa/algorithm/graph/Edge.java" />
-        <option value="$PROJECT_DIR$/src/com/clamaa/algorithm/graph/Graph.java" />
-        <option value="$PROJECT_DIR$/src/com/clamaa/algorithm/sort/InsertSort.java" />
-        <option value="$PROJECT_DIR$/src/com/clamaa/algorithm/sort/SelectSort.java" />
-        <option value="$PROJECT_DIR$/src/com/clamaa/algorithm/sort/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/NodeB.java" />
-        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/NodeA.java" />
-        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/VisitorA.java" />
         <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/VisitorB.java" />
         <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/Client.java" />
         <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/Node.java" />
         <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/ObjectStructure.java" />
         <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/Visitor.java" />
+        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Expression.java" />
+        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Constant.java" />
+        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/And.java" />
+        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Not.java" />
+        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Context.java" />
+        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Client.java" />
+        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Variable.java" />
+        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Or.java" />
+        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/chainofresp/Handler.java" />
+        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/chainofresp/ConcreteHandler.java" />
+        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/chainofresp/Client.java" />
       </list>
     </option>
   </component>
@@ -280,7 +259,7 @@
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
-      <flattenPackages ProjectPane="true" />
+      <flattenPackages ProjectPane="false" />
       <showMembers />
       <showModules />
       <showLibraryContents />
@@ -297,20 +276,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="algorithm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -379,8 +344,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="visitor" />
+              <option name="myItemId" value="designpattern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="designpatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="designpattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chainofresp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -402,9 +403,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="Application.Client">
     <configuration default="false" name="BubbleSort" type="Application" factoryName="Application" temporary="true">
@@ -522,11 +523,11 @@
     <configuration default="false" name="Client" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.clamaa.designpattern.visitor.*" />
+          <option name="PATTERN" value="com.clamaa.designpattern.interpretor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.clamaa.designpattern.visitor.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.clamaa.designpattern.interpretor.Client" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -542,15 +543,12 @@
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
+    <configuration default="true" type="#org.osmorc.OsgiConfigurationType" factoryName="OSGi Bundles" vmParameters="" programParameters="" includeAllBundlesInClassPath="false" workingDir="" useAlternativeJre="false" alternativeJrePath="" frameworkStartLevel="1" defaultStartLevel="5" generateWorkingDir="false">
+      <framework instance="" />
+      <additinalProperties startConsole="true" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -558,9 +556,10 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.osmorc.OsgiConfigurationType" factoryName="OSGi Bundles" vmParameters="" programParameters="" includeAllBundlesInClassPath="false" workingDir="" useAlternativeJre="false" alternativeJrePath="" frameworkStartLevel="1" defaultStartLevel="5" generateWorkingDir="false">
-      <framework instance="" />
-      <additinalProperties startConsole="true" />
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -577,24 +576,6 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -624,6 +605,24 @@
       <envs />
       <properties />
       <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -738,7 +737,15 @@
       <created>1367499836573</created>
       <updated>1367499836573</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add design pattern module; Add Visitor pattern.&#10;">
+      <created>1367846982697</created>
+      <updated>1367846982697</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add interpretor pattern.">
+      <created>1368451359736</created>
+      <updated>1368451359737</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -775,7 +782,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922536" sideWeight="0.5007587" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32807016" sideWeight="0.4939302" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3274648" sideWeight="0.4939302" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3274648" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922536" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -827,7 +834,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change sort method to generic type.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add interpretor pattern." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -845,6 +852,8 @@
     <MESSAGE value="Add JTree to the datastructure&#10;" />
     <MESSAGE value="Add Graph to extra package.&#10;Add Minimal generated tree.&#10;" />
     <MESSAGE value="Change sort method to generic type.&#10;" />
+    <MESSAGE value="Add design pattern module; Add Visitor pattern.&#10;" />
+    <MESSAGE value="Add interpretor pattern." />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -888,102 +897,107 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/sort/AbstractSortAlgorithm.java">
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/Visitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="19" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/sort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/sort/SortExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/sort/ShellSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/sort/InsertSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/sort/ISortAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="31" selection-start="206" selection-end="220" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/sort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/VisitorB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="45" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/VisitorA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/NodeB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="29" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/NodeA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="28" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="10" column="57" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="22" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/NodeA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="28" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/ObjectStructure.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="38" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+        <state line="8" column="38" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="8" selection-start="8" selection-end="32" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="22" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/And.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="16" selection-start="1028" selection-end="1086" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="39" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Not.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="46" selection-start="795" selection-end="795" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="35" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#219#238#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/Visitor.java">
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Variable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="57" selection-start="275" selection-end="275" vertical-scroll-proportion="0.52307695">
+        <state line="16" column="34" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="81" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Or.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="36" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/chainofresp/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="35" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/chainofresp/ConcreteHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/chainofresp/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="0.7846154">
           <folding />
         </state>
       </provider>

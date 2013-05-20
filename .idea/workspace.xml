@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1eab6fda-a258-40a4-b335-40163bf3898d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/designpatterns.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/Mozi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+    <list id="1eab6fda-a258-40a4-b335-40163bf3898d" name="Default" comment="Add Mediator Pattern.&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <list default="true" id="6a2db3ed-52ce-46ca-9ee1-11f93e735a56" name="Rejected commit: Default" comment="Add Mediator Pattern.&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/chainofresp/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/chainofresp/ConcreteHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/chainofresp/Handler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/And.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Constant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Context.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Expression.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Not.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Or.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/interpretor/Variable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/singleton/EagerSingleton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/singleton/LazySingleton.java" />
+      <change type="DELETED" beforePath="D:\Develop\Github\datastructure-algorithm\designpatterns\src\com\clamaa\designpattern\visitor\Mozi.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/clamaa/algorithm/datastructure/JLink.java" afterPath="$PROJECT_DIR$/src/com/clamaa/algorithm/datastructure/JLink.java" />
     </list>
     <ignored path="algorithm.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="6a2db3ed-52ce-46ca-9ee1-11f93e735a56" time="1368526978732" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,82 +84,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PostExpressionEvaluator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/application/PostExpressionEvaluator.java">
+      <file leaf-file-name="ConcreteMediator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/mediator/ConcreteMediator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+            <state line="18" column="31" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RecursiveAlgorithm.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/application/RecursiveAlgorithm.java">
+      <file leaf-file-name="Client.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="35" selection-start="386" selection-end="397" vertical-scroll-proportion="0.0">
+            <state line="15" column="27" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JLink.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/datastructure/JLink.java">
+      <file leaf-file-name="Node.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="19" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
+            <state line="12" column="39" selection-start="233" selection-end="240" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JLinkList.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/datastructure/JLinkList.java">
+      <file leaf-file-name="NodeA.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/NodeA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
+            <state line="8" column="30" selection-start="154" selection-end="161" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JListIterator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/datastructure/JListIterator.java">
+      <file leaf-file-name="NodeB.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/NodeB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
+            <state line="9" column="17" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JOrderArray.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/datastructure/JOrderArray.java">
+      <file leaf-file-name="Visitor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/Visitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
+            <state line="21" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JQueue.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/datastructure/JQueue.java">
+      <file leaf-file-name="VisitorA.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/VisitorA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
+            <state line="6" column="13" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JRBTree.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/tree/JRBTree.java">
+      <file leaf-file-name="ObjectStructure.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/ObjectStructure.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
+            <state line="12" column="30" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JTree.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/tree/JTree.java">
+      <file leaf-file-name="EagerSingleton.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/singleton/EagerSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="16" selection-start="683" selection-end="683" vertical-scroll-proportion="0.4814815">
+            <state line="13" column="0" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LazySingleton.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/singleton/LazySingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="43" selection-start="337" selection-end="337" vertical-scroll-proportion="0.33580247">
               <folding />
             </state>
           </provider>
@@ -159,6 +182,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
@@ -174,22 +198,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/clamaa/algorithm/tree/JTree.java" />
-        <option value="$PROJECT_DIR$/src/com/clamaa/algorithm/tree/JRBTree.java" />
-        <option value="$PROJECT_DIR$/src/com/clamaa/algorithm/tree/JHeapNode.java" />
-        <option value="$PROJECT_DIR$/src/com/clamaa/algorithm/tree/JHeap.java" />
-        <option value="$PROJECT_DIR$/src/com/clamaa/algorithm/exception/ContainerIndexException.java" />
-        <option value="$PROJECT_DIR$/src/com/clamaa/algorithm/datastructure/JStack.java" />
-        <option value="$PROJECT_DIR$/src/com/clamaa/algorithm/datastructure/JQueue.java" />
-        <option value="$PROJECT_DIR$/src/com/clamaa/algorithm/graph/Vertex.java" />
-        <option value="$PROJECT_DIR$/src/com/clamaa/algorithm/datastructure/JPriorityQueue.java" />
-        <option value="$PROJECT_DIR$/src/com/clamaa/algorithm/graph/Edge.java" />
-        <option value="$PROJECT_DIR$/src/com/clamaa/algorithm/graph/Graph.java" />
-        <option value="$PROJECT_DIR$/src/com/clamaa/algorithm/sort/InsertSort.java" />
         <option value="$PROJECT_DIR$/src/com/clamaa/algorithm/sort/SelectSort.java" />
         <option value="$PROJECT_DIR$/src/com/clamaa/algorithm/sort/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/com/clamaa/algorithm/datastructure/JLink.java" />
         <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/Mozi.java" />
+        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/mediator/Colleague2.java" />
+        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/mediator/ConcreteColleague.java" />
+        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/mediator/ConcreteMediator.java" />
+        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/mediator/Colleague.java" />
+        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/mediator/Mediator.java" />
+        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/mediator/Colleague1.java" />
+        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/Memento.java" />
+        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/Originator.java" />
+        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/Client.java" />
+        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/CareTaker.java" />
+        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/singleton/EagerSingleton.java" />
+        <option value="$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/singleton/LazySingleton.java" />
       </list>
     </option>
   </component>
@@ -250,31 +274,17 @@
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
-      <flattenPackages ProjectPane="true" />
+      <flattenPackages ProjectPane="false" />
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="true" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datastructure-algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Datastructure-algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -339,8 +349,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="visitor" />
+              <option name="myItemId" value="designpattern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datastructure-algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datastructure-algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="designpatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="designpattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="singleton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datastructure-algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Datastructure-algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -359,47 +409,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="fileTemplates" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
-  <component name="RunManager" selected="Application.PostExpressionEvaluator">
-    <configuration default="false" name="BubbleSort" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.clamaa.algorithm.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.clamaa.algorithm.sort.BubbleSort" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="algorithm" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.clamaa.designpattern.mediator" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Client">
     <configuration default="false" name="SortExecutor" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -481,6 +510,50 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Mediator" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.clamaa.designpattern.mediator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.clamaa.designpattern.mediator.Mediator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Designpatterns" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Client" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.clamaa.designpattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.clamaa.designpattern.Client" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Designpatterns" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -614,11 +687,12 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Application.BubbleSort" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SortExecutor" />
-      <item index="2" class="java.lang.String" itemvalue="Application.InToPostExpression" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PostExpressionEvaluator" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.SortExecutor" />
+      <item index="1" class="java.lang.String" itemvalue="Application.InToPostExpression" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PostExpressionEvaluator" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Mediator" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Client" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -647,8 +721,9 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1eab6fda-a258-40a4-b335-40163bf3898d" name="Default" comment="" />
+      <changelist id="6a2db3ed-52ce-46ca-9ee1-11f93e735a56" name="Rejected commit: Default" comment="Add Mediator Pattern.&#10;" />
       <created>1365919821288</created>
-      <updated>1365919821288</updated>
+      <updated>1367904144809</updated>
     </task>
     <task id="LOCAL-00001" summary="aa">
       <created>1365952020478</created>
@@ -670,7 +745,11 @@
       <created>1367394571408</created>
       <updated>1367394571408</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add Mediator Pattern.&#10;">
+      <created>1367904163606</created>
+      <updated>1367904163606</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -707,17 +786,17 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922536" sideWeight="0.5007587" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32807016" sideWeight="0.4939302" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32748538" sideWeight="0.4939302" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922536" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19074675" sideWeight="0.67253524" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32743362" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19074675" sideWeight="0.6725146" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3263158" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3274648" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3263158" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -759,7 +838,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change sort method to generic type.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Mediator Pattern.&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -777,6 +856,7 @@
     <MESSAGE value="Add JTree to the datastructure&#10;" />
     <MESSAGE value="Add Graph to extra package.&#10;Add Minimal generated tree.&#10;" />
     <MESSAGE value="Change sort method to generic type.&#10;" />
+    <MESSAGE value="Add Mediator Pattern.&#10;" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -820,71 +900,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/sort/ShellSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/sort/InsertSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/sort/ISortAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="31" selection-start="206" selection-end="220" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/sort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/CommonAlgorithmUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/application/InToPostExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/application/PostExpressionEvaluator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/application/RecursiveAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="35" selection-start="386" selection-end="397" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/datastructure/JLink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="19" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/datastructure/JLinkList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/datastructure/JListIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/datastructure/JOrderArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/datastructure/JQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/tree/JRBTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="13" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" />
@@ -892,7 +907,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/clamaa/algorithm/tree/JTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="16" selection-start="683" selection-end="683" vertical-scroll-proportion="0.4814815">
+        <state line="26" column="16" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/mediator/Colleague.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="20" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/mediator/Colleague1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/mediator/Colleague2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="61" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/mediator/Mediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="20" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/mediator/ConcreteMediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="31" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="27" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="39" selection-start="233" selection-end="240" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/NodeA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="30" selection-start="154" selection-end="161" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/NodeB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/VisitorA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/visitor/ObjectStructure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="30" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/singleton/EagerSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/src/com/clamaa/designpattern/singleton/LazySingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="43" selection-start="337" selection-end="337" vertical-scroll-proportion="0.33580247">
           <folding />
         </state>
       </provider>

@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+/out
+.class
+.jar
+workspace.xml
+*.iml
+=======
 *.class
 *.iml
 .idea/*
@@ -6,3 +13,4 @@
 *.jar
 *.war
 *.ear
+>>>>>>> origin/master
